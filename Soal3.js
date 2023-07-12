@@ -34,7 +34,7 @@ function calculateTotal(numbers) {
           const total = numbers.reduce((sum, num) => sum + num, 0);
           resolve(total);
         }
-      }, 4000); // Timeout selama 4 detik
+      }, 4000);
     });
   }
   
